@@ -1,0 +1,158 @@
+body{	
+	
+	 background-size: auto;
+  	height: auto;
+  	
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+	
+  font-weight:400;
+  line-height:1.8em;
+	}
+
+
+
+
+
+.dropdwn{
+	margin: 0 auto;
+}
+nav{
+	height: 60px;
+	background: #ffff00;
+	box-shadow: 0 10px 15px rgba(0,0,0,.1);
+}
+.logo{	
+	padding: 2px 0 0 20px;
+	width: 190px;
+	height: auto;
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+	float: right;
+	margin-right: 300px;
+	margin-left:50px;
+}
+nav ul li{
+	background: #ffff00;
+	position: relative;
+	list-style: none;
+	display: inline-block;;
+}
+nav ul li a{
+	display: block;
+	padding: 0 15px;
+	color: Black;
+	text-decoration: none;
+	line-height: 60px;
+	font-size: 20px;
+	transition: .5s;
+}
+nav ul li a:hover{
+	background: #ffffff;
+}
+nav ul ul{
+	position: absolute;
+	top: 60px;
+	line-height: 20px !important;
+	display: none;
+}
+nav ul li:hover > ul{
+	display: block;
+}
+nav ul ul li{
+	width: 250px;
+	float: center;
+	display: list-item;
+	position: relative;
+	line-height: 20px !important;
+	right: 100px;
+}
+nav ul ul ul li{
+	position: relative;
+	top: -60px;
+	left: 151px;
+}
+nav ul ul ul ul li{
+	position: absolute;
+	top: -60px;
+	left: 100px;
+}
+
+
+
+
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:0.60;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('h1.jpg');
+  min-height:100%;
+
+}
+
+.pimg2{
+  background-image:url('h2.jpg');
+  min-height:400px;
+}
+
+.pimg3{
+  background-image:url('h3.jpg');
+  min-height:400px;
+}
+
+.section{
+  text-align:center;
+  padding:200px 80px;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
+

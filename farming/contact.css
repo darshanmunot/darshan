@@ -1,0 +1,58 @@
+ body{
+    margin: 0;
+    padding: 0;
+      background-image: url('Hen.jpg');
+
+    background-size: cover;
+    background-position: center;
+}   
+
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+	
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+  color:white;
+ 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+

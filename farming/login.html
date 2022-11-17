@@ -1,0 +1,31 @@
+<html>
+
+<head>
+<title>Login</title>
+<link rel="stylesheet" type="text/css" href="login.css">
+
+</head>
+<body>
+		<form action="logindb.php" method="POST">
+
+	<?php if(isset($err)){ echo $err; } ?>
+	<form method="POST" name="loginauth" target="logindb.php">
+
+    <div class="login-box">
+    <img src="avatar1.jpg" class="avatar">
+        <h1>Login Here</h1>
+            <form>
+            <p>Username</p>
+            <input type="text" name="username" placeholder="Enter Username" required>
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Enter Password" required>
+            <input type="submit" name="submit" value="Login">
+		</form>
+	   
+           
+        
+        
+        </div>
+
+</body>
+</html>

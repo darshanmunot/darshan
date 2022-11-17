@@ -1,0 +1,17 @@
+create database farming1;
+
+ create table detail(id serial,name varchar(20),address varchar(20),phone_no bigint,email varchar(50),quantity int);
+ 
+ 
+ 
+ 
+ create table message(id serial,fname varchar(20),lname varchar(20),email varchar(50),subject varchar(50));
+ 
+ 
+create table product(prd_id serial, prd_name varchar(20),prd_price varchar(30),quantity varchar(20));
+insert into product values(101,'chicken egg','60 rs dozen','100 dozen');
+insert into product values(102,'chicken meat','160 rs Kg','500 Kg');
+insert into product values(103,'duck egg','873 rs dozen','200 dozen');
+insert into product values(104,'duck meat','500 rs kg','200 kg');
+insert into product values(105,'turkey egg','900 rs dozen','100 dozen');
+insert into product values(106,'turkey meat','800 rs kg','200 kg');

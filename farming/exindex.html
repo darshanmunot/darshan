@@ -1,0 +1,98 @@
+<html>
+
+<head>
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+<body background="Hen.jpg">
+
+
+
+<meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
+<div class="dropdwn">
+<nav>
+<a href="index.html"><img class="logo" src="logo.png"></a>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="login.html">Log In</i> </a>
+<ul>
+<li><a href="login.html">Log in</li>
+<li><a href="Signup.html">Sign up</a></li>
+</ul>
+</li>
+<li><a href="#">Products</i> </a>
+<ul>
+<li><a href="#">Birds</i> </a>
+<ul>
+<li><a href="#">Chicken</a></li>
+<li><a href="#">Duck</a></li>
+<li><a href="#">Turkey</a></li>
+</ul>
+<li><a href="#">Eggs</i> </a>
+<ul>
+<li><a href="#">Chicken Eggs</a></li>
+<li><a href="#">Duck Eggs</a></li>
+<li><a href="#">Turkey Eggs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#">Genetics</a></li>
+<li><a href="#">Dieases & welfare</a></li>
+<li><a href="#">Equipments & Technology</a></li>
+<li><a href="kc.html">Knowledge Center</a></li>
+<li><a href="aboutus.html">About Us</a></li>
+<li><a href="#">Contact Us</a></li>
+
+</ul>
+</nav>
+</div>
+
+
+
+
+
+
+<div class="w3" style="max-width:100%">
+<h4 style="text-align:center;"><font color="red">SOME PICTURES OF FARM:</font></h4>
+<a href="login.html"> <img class="mySlides" src="1.jpg" border=5 width="500" height="333">
+<img class="mySlides" src="2.jpg" border=5 width="500" height="333">
+<img class="mySlides" src="3.jpg" border=5 width="500" height="333">
+</a>
+
+</div>
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); 
+}
+</script>
+<div class="p1">
+<p>
+<h4><b><i>What is Poultry-Farming?</b></i></h4>
+<img src="farm2.jpg"  width="700px" height="500px" alt="alt text" /><br>
+<br><b><i>In poultry farming, rearing, and management of fowls are done for two purposes-</i></b>
+<ol>
+<b><i>
+<li>Production of the eggs.</li>
+<li>Production of meat or flesh.</li>
+</i></b>
+</ol>
+<b><i>In order to meet the quantity and quality requirements, a variety of strains (breeds) are raised. These improved strains include layers which produce eggs and broilers that provide meat.
+Since poultry farming is a profit-making business, its primary focus is on maximum production in less expenditure. For this reason, cross-breeding of local and foreign breeds was started. Cross-breeding aims for raising breeds with desirable traits.</i></b>
+</p>
+</div>
+</body>
+</html>

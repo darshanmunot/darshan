@@ -1,0 +1,102 @@
+body{	
+	
+	 background-size: auto;
+  	height: auto;
+  	overflow: hidden;
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+	
+	}
+
+
+
+
+
+.dropdwn{
+	margin: 0 auto;
+}
+nav{
+	height: 60px;
+	background: #ffff00;
+	box-shadow: 0 10px 15px rgba(0,0,0,.1);
+}
+.logo{	
+	padding: 2px 0 0 20px;
+	width: 190px;
+	height: auto;
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+	float: right;
+	margin-right: 299px;
+	margin-left:100px;
+}
+nav ul li{
+	background: #ffff00;
+	position: relative;
+	list-style: none;
+	display: inline-block;;
+}
+nav ul li a{
+	display: block;
+	padding: 0 15px;
+	color: Black;
+	text-decoration: none;
+	line-height: 60px;
+	font-size: 20px;
+	transition: .5s;
+}
+nav ul li a:hover{
+	background: #ffffff;
+}
+nav ul ul{
+	position: absolute;
+	top: 60px;
+	line-height: 20px !important;
+	display: none;
+}
+nav ul li:hover > ul{
+	display: block;
+}
+nav ul ul li{
+	width: 250px;
+	float: center;
+	display: list-item;
+	position: relative;
+	line-height: 20px !important;
+	right: 100px;
+}
+nav ul ul ul li{
+	position: relative;
+	top: -60px;
+	left: 151px;
+}
+nav ul ul ul ul li{
+	position: absolute;
+	top: -60px;
+	left: 100px;
+}
+
+.w3{
+  
+    color: #fff;
+    top: 60%;
+    left: 25%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 100px 300px;
+    overflow:hidden;
+}
+
+.p1{
+  
+    color: #fff;
+    top: 20%;
+    left:50%;
+    
+    position:absolute;
+}
+
