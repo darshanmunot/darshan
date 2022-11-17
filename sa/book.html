@@ -1,0 +1,89 @@
+	<html>
+<head>
+		<title>HOTFUT</title>
+		 <!-- bootstrap css-->
+		 <link rel="stylesheet" href="css/bootstrap.min.css">
+
+		 <!-- font awesome css-->
+		  <link rel="stylesheet" href="css/all.min.css">
+				   
+		  <!-- google font css-->
+		  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+				   
+		 <!-- custom css-->
+		 <link rel="stylesheet" href="css/custom.css">
+        <style>
+			body {
+  background-image: url('bg2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+		</style>
+</head>
+ <body>	
+	 <div>
+	<h1 class="text-center text-white mt-5">GET INTO THE GAME, BOOK YOUR TURF NOW.</h1>
+    </div>
+	<div class="row justify-content-center mt-3">
+<div class="col-md-5 ms-5">
+	<form action="book.php" method="POST" class="shadow-lg">
+		<div class="form-group ">
+			<label for="name" class="fw-bold text-white">Name:</label>
+			<input type="text" class="form-control" name="t1" placeholder="Full Name" required="required">
+		</div>
+		<div class="form-group">
+			<label for="Email" class="mt-2 fw-bold text-white">Email;</label>
+			<input type="email" class="form-control" name="t2" placeholder="eg:name@gmail.com" required="required">
+		</div>
+		<div class="form-group">
+			<label for="address" class="mt-2 fw-bold text-white">Address:</label>
+			<input type="text" class="form-control" name="t3" placeholder="Address" required="required">
+		</div>
+		<div class="form-group">
+			<label for="phone" class="mt-2 fw-bold text-white">Phone:</label>
+			<input type="number" class="form-control" name="t4" placeholder="eg98098978" required="required">
+		</div>
+		<div class="form-group">
+			<label for="team" class="mt-2 fw-bold text-white">Team:</label>
+			<input type="number" class="form-control" name="t5" placeholder="how many players" required="required">
+		</div>
+		<div class="form row">
+		<div class="form-group col-md-4">
+			<label for="date" class="mt-2 ms-1 fw-bold text-white">Date:</label>
+			<input type="date" class="form-control ms-1" name="t6" required="required">
+		</div>
+		<div class="form-group col-md-4">
+			<label for="time" class="mt-2 fw-bold text-white" >Select Time:</label>
+			<select name="time" class="form-control">
+			<option value="8am-10am">8am-10am</option>
+			
+			<option value="10am-12pm">10am-12pm</option>
+			
+			<option value="12pm-2pm">12pm-2pm</option>
+			
+			<option value="2pm-4pm">2pm-4pm</option>
+			
+			<option value="4pm-6pm">4pm-6pm</option>
+			</select>
+		</div>
+	</div>
+	    <div class="form row">
+		<div class="form-group col-md-4">
+			<input type="submit" name="submit" class="btn btn-success mt-3 form-control" style="border-radius:20px;" value="Submit">
+		</div>
+		<div class="form-group col-md-4">
+			<a href="home.html" class="text-white" style="text-decoration:none;"><button type="submit" name="close" class="btn btn-danger mt-3" style="border-radius:20px;">Back To Home</a></button>
+		</div>
+	</div>
+	</form>
+</div>
+</div>
+
+	  <!-- javascript -->
+	  <script src="js/jquery.min.js"></script>
+	  <script src="js/popper.min.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+	  <script src="js/all.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,6 @@
+create database hotfut; 
+ 
+ create table ground(id serial,name varchar(20),email varchar(50),address varchar(20),phone_no bigint,team int,date date,time varchar(20));
+create table feedbacks(id serial,name varchar(20),email varchar(50),address varchar(20),phone_no bigint, feedback varchar(50));
+
+	

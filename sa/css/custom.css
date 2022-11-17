@@ -1,0 +1,89 @@
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size:2em;
+  font-weight: bold;
+  color: azure;
+  padding-left: 5px;
+  }
+  .navbar #mymenu .custom-nav .nav-item a {
+    color: #ffffff;
+    padding-left: 2em ;
+}
+
+.navbar #mymenu .custom-nav .nav-item a:hover {
+    color: rgb(214, 63, 63);
+}
+
+.logo img{
+	float:left;
+  height: 100px;
+	}
+  .jumbotrons {
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    background-color: rgb(197, 187, 187);
+    border-radius: 0px;
+    min-height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top:74px;
+  }
+  .pclass {
+      font-style: italic;
+      font-size:24px;
+  }
+  .btn {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .mainhead {
+      margin-top: 50px;
+  }
+  .colorchange
+  {
+    font-size:30px;
+    word-spacing:5px;
+    letter-spacing:3px;
+    margin-bottom:2px;
+    text-transform:uppercase;
+    text-decoration:NONE;
+      animation:colorchange 1s infinite;
+  }
+   @keyframes colorchange{
+    0%{color:red;}
+    25%{color:#bf55ec;}
+    50%{color:#fff;}
+    100%{color:#bf55ec;}
+   }
+  p
+  {
+    color:white;
+    margin-top:0px;
+    font-size:18px;
+    word-spacing:5px;
+    letter-spacing:3px;
+    margin-bottom:0px;
+    width:800px;
+  }
+  .top{
+        left: 630px;
+        position: relative;
+        float: left;
+        margin-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+  }
+  .mainhead{
+            color: black;
+            top: 40px;
+            padding-right: 10px;
+            font-size: 20px;
+            font-weight: bold;
+  }
+
+
+
+
+
+

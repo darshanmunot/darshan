@@ -1,0 +1,83 @@
+<html>
+<head>
+
+	    <!-- bootstrap css-->
+	    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+		<!-- font awesome css-->
+		 <link rel="stylesheet" href="css/all.min.css">
+				  
+		 <!-- google font css-->
+		 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+				  
+        <!-- custom css-->
+        <link rel="stylesheet" href="css/custom.css">
+		<style>
+			body {
+background-image: url('bg2.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+	</style>
+</head>
+<body><nav class="navbar navbar-expand-sm navbar-dark bg-dark pl-5 fixed-top" >
+	<!-- start navigation -->
+	<img src="hotfut.png" boder="4" width="100"><a href="home.php" class="navbar-brand me-5 ms-4 ">Sports Arena</a>
+	<em class="text-danger"></em>
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+	data-bs-target="#mymenu" aria-controls="navbarResponsive" 
+	aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+  </button>
+	<div class="collapse navbar-collapse" id="mymenu">
+		<ul class="navbar-nav custom-nav ">
+			<li class="nav-item"><a href="login.php" class="nav-link">Admin</a></li>
+			<li class="nav-item"><a href="fb.html" class="nav-link ms-4">Feedback</a></li>
+			<li class="nav-item"><a href="abt.html" class="nav-link ms-4">About Us</a></li>
+			<li class="nav-item"><a href="contact.html" class="nav-link ms-4">Contact Us</a></li>
+		</ul>
+	</div>
+</nav> <!-- end navigation -->
+         <div style="margin-top:100px;">
+		<div class="row text-center justify-content-center mx-5"><!-- start row-->
+		   <div class="col-sm-4 mt-5">
+			<div class="card me-5 text-white bg-success mb-3">
+				<div class="card-header">Bookings Recieved</div>
+				<div class="card-body">
+				<h4 class="card-title"></h4>
+				<a  class="btn text-white"href="view1.php">View</a>
+				</div>
+		   </div>
+		  </div><!-- end card 1st col-->
+		  <div class="col-sm-4 mt-5 "><!-- start card 2st col-->
+			  <div class="card text-white ms-5 bg-danger mb-3" style="max-width:20rem;">
+				  <div class="card-header">Delete Booking</div>
+				  <div class="card-body">
+					  <h4 class="card-title"></h4>
+					  <a class="btn text-white" href="delete.php">View</a>
+				  </div>
+			  </div>
+		  </div><!-- end card 2st col-->
+		  <div class="col-sm-4 mt-5 ms-3"><!-- start card 3st col-->
+			  <div class="card text-white bg-info mb-3" style="max-width:20rem;">
+				  <div class="card-header">Feedback Recieved</div>
+				  <div class="card-body">
+					  <h4 class="card-title"></h4>
+					  <a  class="btn text-white"href="fb1.php">View</a>
+				  </div>
+			   </div>
+		  </div><!-- start card 3st col-->
+		</div><!-- end row-->
+		<div class="text-center">
+			<a href="home.html" class="btn btn-primary shadow-lg mt-5">Back to Home</a>
+		</div>
+	</div>
+
+
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/all.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+
+<meta name="viewport" content="iwdth-device-width,initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap.min.css">	
+<title>Contact to email using javascript</title>
+	<link rel="stylesheet" href="contact javascript css.css">
+	
+	
+
+	
+</head>
+
+<body>
+	
+	<div class="container mt-5">
+
+  
+	
+		<form onSubmit="sendEmail();reset();return false">
+	<h3 class="text-center">GET IN TOUCH</h3>
+		<input type="text" id="name" placeholder="Your Name" required>
+		<input type="email" id="email" placeholder="Email Id" required>
+		<input type="text" id="phone" placeholder="Phone no." required>
+		<textarea id="message" row="4" placeholder="How Can I Help You?"></textarea>
+		<button type="submit">Send</button>
+		<a href="home.html" class="btn btn-primary shadow-lg mt-3 mb-3">Back to Home</a>
+	</form>
+	</div>
+	
+	<script scr="https://smtpjs.com/v3/smtp.js"></script>
+	<script>
+		function sendEmail(){
+			Email.send({
+    Host : "smtp.gmail.com",
+    Username : 'hotfutspotrs1644@gmail.com',
+    Password : "@HOTFUTsports1",
+    To : 'darshanmunot1644@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New Contact Form Enquiry",
+    Body : "Name: "+ document.getElementById("name").value
+				+"<br> Email: "+ document.getElementById("email").value
+				+"<br> phone no: "+ document.getElementById("phone").value
+				+"<br> message: "+ document.getElementById("message").value
+}).then(
+  message => alert("Message Sent Succesfully")
+);
+		}
+		
+	
+	</script>
+	
+</body>
+</html>
